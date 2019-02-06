@@ -1,0 +1,13 @@
+body {
+  background-color: #dadada !important;
+  & .grid {
+    height: 100% !important;
+    padding-top: 5% !important;
+  }
+}
+.image {
+  margin-top: -100px;
+}
+.column {
+  max-width: 450px !important;
+}
