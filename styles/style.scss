@@ -1,21 +1,13 @@
-h1 {
-  color: red;
+body {
+  background-color: #dadada !important;
+  & .grid {
+    height: 100% !important;
+    padding-top: 5% !important;
+  }
 }
-
-.Aligner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  & .Aligner-item {
-    max-width: 50%;
-  }
-
-  & .Aligner-item--top {
-    align-self: flex-start;
-  }
-
-  & .Aligner-item--bottom {
-    align-self: flex-end;
-  }
+.image {
+  margin-top: -100px;
+}
+.column {
+  max-width: 450px !important;
 }

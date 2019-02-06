@@ -1,3 +1,3 @@
 // scaffold app
-
-export default () => <h1>Login</h1>;
+import LoginComponent from "../components/LoginComponent";
+export default () => <LoginComponent />;
